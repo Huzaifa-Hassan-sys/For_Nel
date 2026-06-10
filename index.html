@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A romantic digital love letter for Nel">
+    <title>For Nel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Section 1: Opening Screen -->
+    <section id="opening" class="section opening-section">
+        <div class="opening-content">
+            <p class="opening-text fade-in-sequence" style="animation-delay: 0s;">Before you scroll…</p>
+            <p class="opening-text fade-in-sequence" style="animation-delay: 2s;">I need you to know something.</p>
+            
+            <div class="pause-space"></div>
+            
+            <p class="opening-text fade-in-sequence main-message" style="animation-delay: 4s;">You are not just loved.</p>
+            <p class="opening-text fade-in-sequence main-message" style="animation-delay: 4.5s;">You are deeply, intentionally, and carefully loved.</p>
+            
+            <button class="cta-button" onclick="document.getElementById('sketch').scrollIntoView({ behavior: 'smooth' })">Come inside</button>
+        </div>
+    </section>
+
+    <!-- Section 2: Sketch -->
+    <section id="sketch" class="section sketch-section">
+        <div class="sketch-container">
+            <h2 class="section-title skewed-text">The way I see you</h2>
+            <div class="cute-note">
+                <p class="skewed-text-note">Took me quite a while to make this for you but it was worth it &lt;3</p>
+            </div>
+            <img src="assets/sketch.jpeg" alt="Sketch of Nel" class="sketch-image">
+            <p class="section-subtitle">You think I call you beautiful too much. I don't think I say it enough.</p>
+        </div>
+    </section>
+
+    <!-- Section 3: Letter -->
+    <section id="letter" class="section letter-section">
+        <div class="letter-intro">
+            <p class="intro-text">This is the part I couldn't type.</p>
+            <p class="intro-text">Because some feelings deserve ink.</p>
+        </div>
+        
+        <div class="letter-container">
+            <div class="letter-page letter-page-1">
+                <img src="assets/Letter_page_1.jpeg" alt="Handwritten letter page 1" class="letter-image">
+            </div>
+            <div class="letter-page letter-page-2">
+                <img src="assets/Letter_page_2.jpeg" alt="Handwritten letter page 2" class="letter-image">
+            </div>
+        </div>
+        <div class="cute-note">
+                <p class="skewed-text-note">I sprayed this with my perfume but you can't smell it 😭</p>
+                <p class="skewed-text-note">Guess You'll have to wait for the real thing ❣</p>
+        </div>
+    </section>
+
+    <!-- Section 4: Song -->
+    <section id="song" class="section song-section">
+        <div class="song-container">
+            <p class="song-prompt">Press this if you'd like to hear what my heart sounds like.</p>
+            <video class="song-player" controls>
+                <source src="assets/Song.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Section 5: Voice Cassettes -->
+    <section id="cassettes" class="section cassettes-section">
+        <h2 class="section-title">Little messages</h2>
+        
+        <div class="cassettes-grid">
+            <!-- Cassette 1 -->
+            <div class="cassette-item">
+                <button class="cassette-button" data-cassette="1">📼</button>
+                <div class="cassette-message hidden">
+                    <p>I don't think you realize how beautiful you actually are.</p>
+                </div>
+                <video class="cassette-audio hidden" data-cassette="1">
+                    <source src="assets/Cassette_1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- Cassette 2 -->
+            <div class="cassette-item">
+                <button class="cassette-button" data-cassette="2">📼</button>
+                <div class="cassette-message hidden">
+                    <p>I still smile every time you call me darling.</p>
+                </div>
+                <video class="cassette-audio hidden" data-cassette="2">
+                    <source src="assets/Cassette_2.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- Cassette 3 -->
+            <div class="cassette-item">
+                <button class="cassette-button" data-cassette="3">📼</button>
+                <div class="cassette-message hidden">
+                    <p>I hope one day I get to read this whole website while you're sitting next to me.</p>
+                </div>
+                <video class="cassette-audio hidden" data-cassette="3">
+                    <source src="assets/Cassette_3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Interactive Roses -->
+    <section id="roses" class="section roses-section">
+        <h2 class="section-title">For you</h2>
+        
+        <div class="roses-grid">
+            <!-- Rose 1 -->
+            <div class="rose-item">
+                <button class="rose-button" data-rose="1">🌹</button>
+                <div class="rose-message hidden">
+                    <p>This one is for the way you smile.</p>
+                </div>
+            </div>
+
+            <!-- Rose 2 -->
+            <div class="rose-item">
+                <button class="rose-button" data-rose="2">🌹</button>
+                <div class="rose-message hidden">
+                    <p>This one is for how you say my name.</p>
+                </div>
+            </div>
+
+            <!-- Rose 3 -->
+            <div class="rose-item">
+                <button class="rose-button" data-rose="3">🌹</button>
+                <div class="rose-message hidden">
+                    <p>This one is for the way you care.</p>
+                </div>
+            </div>
+
+            <!-- Rose 4 -->
+            <div class="rose-item">
+                <button class="rose-button" data-rose="4">🌹</button>
+                <div class="rose-message hidden">
+                    <p>This one is for every time you made my heart race.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Memory Vault -->
+    <section id="memories" class="section memories-section">
+        <h2 class="section-title">Things I Remember About You</h2>
+        
+        <div class="memories-list">
+            <p>The way you randomly use 😉 in messages where it doesn't even belong somehow makes me smile every single time.</p>
+            <p>You love the beach and volleyball with a passion that makes me admire your spirit.</p>
+            <p>You're so humble and don't realize how beautiful you actually are.</p>
+            <p>You have the gentlest heart — you're also a secret nerd who loves books.</p>
+            <p>I know how much you like bikes So I promise to take you on a ride someday &lt;3 .</p>
+        </div>
+    </section>
+
+    <!-- Section 8: Things I'll Never Stop Loving -->
+    <section id="loves" class="section loves-section">
+        <h2 class="section-title">Things I'll Never Stop Loving</h2>
+        
+        <div class="loves-list">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Section 9: "If I Could Give You One Thing" -->
+    <section id="gift" class="section gift-section">
+        <div class="gift-container">
+            <p class="gift-text reveal-text">It wouldn't be flowers.</p>
+            <p class="gift-text reveal-text">It wouldn't be jewelry.</p>
+            <p class="gift-text reveal-text">It wouldn't be money.</p>
+            <p class="gift-text reveal-text">It wouldn't even be this website.</p>
+            
+            <div class="gift-pause"></div>
+            
+            <p class="gift-text reveal-text gift-climax">I'd give you the ability to see yourself through my eyes.</p>
+            
+            <div class="gift-pause"></div>
+            
+            <p class="gift-text reveal-text gift-final">Because then you'd finally understand why I never stop calling you beautiful.</p>
+        </div>
+    </section>
+
+    <!-- Easter Egg -->
+    <footer id="easter-egg">
+        <p class="easter-egg-text">You're still my favorite person.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
